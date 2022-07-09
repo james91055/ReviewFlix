@@ -1,25 +1,18 @@
 [
     {
-      "id": "Music Near Me",
+      "id": "",
       "title": "Sing 2",
-      "mpaa": ,
-      "release_date": ,
-      "runtime": ,
-      "imageURL": ,
-      "previewURL": ,
-      "genre": ,
-      "outOfTen": ,
-      "directors": ,
-      
-    },
-    {
-      "name": "The Ultimate Tech Quiz",
-      "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
-      "needed_funding": 10000
-    },
-    {
-      "name": "Roll 'Em Up",
-      "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
-      "needed_funding": 800
+      "mpaa":"PG",
+      "release_date": "2021" ,
+      "runtime": "1h 50m" ,
+      "imageURL":"https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": "Animation" ,
+      "outOfTen": "7.4" ,
+      "directors":"Garth Jennings, Christophe Lourdelet",
+      "writer": "Garth Jennings" ,
+      "stars": "Matthew McConaughey, Reese Witherspoon, Scarlett Johansson" ,
+      "movieURL": "https://www.singmovie.com/",
+      "previewURL": "https://youtu.be/aS7h3qM024g"
     }
+    
   ]

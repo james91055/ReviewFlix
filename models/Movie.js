@@ -41,9 +41,6 @@ Movie.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    previewURL: {
-      type: DataTypes.STRING,
-      },
     genre: {
         type: DataTypes.STRING
     },
