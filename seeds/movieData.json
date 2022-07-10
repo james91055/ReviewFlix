@@ -50,22 +50,22 @@
       {
         "id": "4",
         "title": "Red Notice",
-        "mpaa":"",
-        "release_date": "" ,
-        "runtime": "" ,
-        "imageURL":"",
-        "genre": "" ,
-        "outOfTen": "" ,
-        "directors":"",
-        "writer": "" ,
-        "stars": "" ,
+        "mpaa":"PG-13",
+        "release_date": "2021" ,
+        "runtime": "1h 58m" ,
+        "imageURL":"https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Comedy, Thriller" ,
+        "outOfTen": "6.3" ,
+        "directors":"Rawson Marhsall Thurber",
+        "writer": "Rawson Marshall Thurber" ,
+        "stars": "Dwayne Johnson, Ryan Reynolds, Gal Gadot" ,
         "movieURL": "",
-        "previewURL": ""
+        "previewURL": "https://youtu.be/Pj0wz7zu3Ms"
       },
 
       {
         "id": "5",
-        "title": "Mean Girls",
+        "title": "",
         "mpaa":"",
         "release_date": "" ,
         "runtime": "" ,
