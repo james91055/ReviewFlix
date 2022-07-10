@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const movieData = require('../seeds/movieData.json');
+const movieData = require('../../seeds/movieData.json');
 
 
 router.get('/', async (req, res) => {
