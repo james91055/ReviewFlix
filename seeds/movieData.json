@@ -114,17 +114,17 @@
       {
         "id": "8",
         "title": "The Dark Knight Rises",
-        "mpaa":"",
-        "release_date": "" ,
-        "runtime": "" ,
-        "imageURL":"",
-        "genre": "" ,
-        "outOfTen": "" ,
-        "directors":"",
-        "writer": "" ,
-        "stars": "" ,
-        "movieURL": "",
-        "previewURL": ""
+        "mpaa":"PG-13",
+        "release_date": "2012" ,
+        "runtime": "2h 44m" ,
+        "imageURL":"https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Drama" ,
+        "outOfTen": "8.4" ,
+        "directors":"Christopher Nolan",
+        "writer": "Jonathan Nolan, Christopher Nolan, David S. Goyer" ,
+        "stars": "Christian Bale, Tom Hardy, Anne Hathaway" ,
+        "movieURL": "https://www.thedarkknightrises.com/",
+        "previewURL": "https://youtu.be/g8evyE9TuYk"
       },
 
       {
