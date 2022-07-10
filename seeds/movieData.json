@@ -18,17 +18,17 @@
     {
         "id": "2",
         "title": "The Man From Toronto",
-        "mpaa":"",
-        "release_date": "" ,
-        "runtime": "" ,
-        "imageURL":"",
-        "genre": "" ,
-        "outOfTen": "" ,
-        "directors":"",
-        "writer": "" ,
-        "stars": "" ,
-        "movieURL": "",
-        "previewURL": ""
+        "mpaa":"PG-13",
+        "release_date": "2022" ,
+        "runtime": "1h 50m" ,
+        "imageURL":"https://m.media-amazon.com/images/M/MV5BZDM2YjA2ZjAtMmZmMy00NDhjLWJjYWYtYjc4ZGY0YzUzOTMyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action" ,
+        "outOfTen": "5.7" ,
+        "directors":"Patrick Hughes",
+        "writer": "Robbie Fox, Chris Bremmer, Jason Blumenthal" ,
+        "stars": "Kevin Hart, Woody Harrelson, Jasmine Mathews" ,
+        "movieURL": "https://www.netflix.com/title/81251628",
+        "previewURL": "https://youtu.be/urqy8DrcGBs"
       },
 
       {
