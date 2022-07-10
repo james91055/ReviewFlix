@@ -65,18 +65,18 @@
 
       {
         "id": "5",
-        "title": "",
-        "mpaa":"",
-        "release_date": "" ,
-        "runtime": "" ,
-        "imageURL":"",
-        "genre": "" ,
-        "outOfTen": "" ,
-        "directors":"",
-        "writer": "" ,
-        "stars": "" ,
-        "movieURL": "",
-        "previewURL": ""
+        "title": "Mean Girls",
+        "mpaa":"PG-13",
+        "release_date": "2004" ,
+        "runtime": "1h 37m" ,
+        "imageURL":"https://m.media-amazon.com/images/M/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_UY98_CR1,0,67,98_AL_.jpg",
+        "genre": "Comedy" ,
+        "outOfTen": "7.1" ,
+        "directors":"Mark Waters",
+        "writer": "Rosalind Wiseman, Tina Fey" ,
+        "stars": "Lindsay Lohan, Jonathan Bennett, Rachel McAdams" ,
+        "movieURL": "https://www.netflix.com/title/60034551",
+        "previewURL": "https://youtu.be/oDU84nmSDZY"
       },
 
       {
