@@ -4,16 +4,6 @@ const sequelize = require('../config/connection');
 class Movie extends Model {}
 
 Movie.init(
-// Sing 2
-// The Man From Toronto
-// Hustle
-// Red Notice
-// Mean Girls
-// The Adam Project
-// The Amazing Spider-Man
-// The Dark Knight Rises
-// A Madea Homecoming
-// Back to the Outback
   {
     id: {
       type: DataTypes.INTEGER,
