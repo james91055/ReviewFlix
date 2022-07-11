@@ -1,17 +1,13 @@
-const router = require('express').Router();
-const {Movie, Review} = require('../models');
+const router = require("express").Router();
+const { Movie, Review } = require("../models");
 
-
-
-router.get('/', async (req, res) => {
+router.get("/", async (req, res) => {
   try {
-    const movieData = await Movie.findAll({
-      
-    });
+    const movieData = await Movie.findAll({});
 
     const movies = movieData.map((movie) => movie.get({ plain: true }));
 
-    res.render('movieList', {
+    res.render("movieList", {
       movies,
       logged_in: req.session.logged_in,
     });
@@ -29,6 +25,7 @@ router.get('/', async (req, res) => {
 //   res.render('login');
 // });
 // TODO: double check against model
+
 router.get('/movie/:id', async (req, res) => {
    
       try {
@@ -50,11 +47,11 @@ router.get('/movie/:id', async (req, res) => {
     }
   );
 
+
 module.exports = router;
 
 // const router = require('express').Router();
 // const { Movie } = require('../models');
-
 
 // router.get('/movies', async (req, res) => {
 //   try {
