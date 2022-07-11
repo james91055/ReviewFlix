@@ -46,9 +46,5 @@ const { User } = require('../../models');
 //   }
 // });
 
-<<<<<<< HEAD
-// module.exports = router;
-=======
 module.exports = router;
 
->>>>>>> main
