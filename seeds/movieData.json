@@ -1,6 +1,6 @@
 [
     {
-      "id": "1",
+      
       "title": "Sing 2",
       "mpaa":"PG",
       "release_date": "2021" ,
@@ -16,7 +16,7 @@
     },
 
     {
-        "id": "2",
+        
         "title": "The Man From Toronto",
         "mpaa":"PG-13",
         "release_date": "2022" ,
@@ -32,7 +32,7 @@
       },
 
       {
-        "id": "3",
+        
         "title": "Hustle",
         "mpaa":"R",
         "release_date": "2022" ,
@@ -48,7 +48,7 @@
       },
 
       {
-        "id": "4",
+        
         "title": "Red Notice",
         "mpaa":"PG-13",
         "release_date": "2021" ,
@@ -64,7 +64,7 @@
       },
 
       {
-        "id": "5",
+        
         "title": "Mean Girls",
         "mpaa":"PG-13",
         "release_date": "2004" ,
@@ -80,7 +80,7 @@
       },
 
       {
-        "id": "6",
+        
         "title": "The Adam Project",
         "mpaa":"PG-13",
         "release_date": "2022" ,
@@ -96,7 +96,7 @@
       },
 
       {
-        "id": "7",
+        
         "title": "The Amazing Spider-Man",
         "mpaa":"PG-13",
         "release_date": "2012" ,
@@ -112,7 +112,7 @@
       },
 
       {
-        "id": "8",
+        
         "title": "The Dark Knight Rises",
         "mpaa":"PG-13",
         "release_date": "2012" ,
@@ -128,7 +128,7 @@
       },
 
       {
-        "id": "9",
+        
         "title": "A Madea Homecoming",
         "mpaa":"TV-MA",
         "release_date": "2022" ,
@@ -144,7 +144,7 @@
       },
 
       {
-        "id": "10",
+        
         "title": "Back to the Outback",
         "mpaa":"PG",
         "release_date": "2021" ,
