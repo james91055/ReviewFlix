@@ -1,0 +1,17 @@
+:root{
+    --bg: black;
+    --title: rgb(196, 13, 27);
+    --bg_gray: rgb(39, 39, 39);
+}
+
+h1{
+    color: var(--title)
+}
+
+#nav {
+    color: white;
+}
+
+.gray-section{
+    background-color: var(--bg_gray);
+}
