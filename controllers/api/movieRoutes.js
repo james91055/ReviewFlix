@@ -1,8 +1,8 @@
 const router = require('express').Router();
-const movieData = require('../../seeds/movieData.json');
+const { Movie } = require('../../models');
 
 
-router.get('/', async (req, res) => {
+router.get('/movies', async (req, res) => {
   try {
 
   const movieData = await Movie.findAll({})

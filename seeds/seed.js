@@ -9,9 +9,9 @@ const seedDatabase = async () => {
 
   const movies = await Movie.bulkCreate(movieData);
 
-  for (const movies of movieData) {
+  for (const movie of movieData) {
     await Movie.create({
-      ...movies,
+      ...movie,
       id: movies[Math.floor(Math.random() * movies.length)].id,
     });
   }
