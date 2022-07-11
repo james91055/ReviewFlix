@@ -4,9 +4,15 @@ const movieData = require('../../seeds/movieData.json');
 
 router.get('/', async (req, res) => {
   try {
-   
-    res.render('movieList', {
-      movieData,
+
+  const movieData = await Movie.findAll({})
+  const movies = movieData.map((movie) =>
+    movie.get({ plain: true })
+  );
+  console.log(movies);
+
+  res.render('movieList', {
+      movies,
     });
   } catch (err) {
     console.log(err);

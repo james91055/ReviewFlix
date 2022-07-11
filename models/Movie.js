@@ -9,7 +9,6 @@ Movie.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
     },
     title: {
       type: DataTypes.STRING,
@@ -20,7 +19,7 @@ Movie.init(
       allowNull: false,
     },
     release_date: {
-      type: DataTypes.DATE,
+      type: DataTypes.INTEGER,
       allowNull: false,
     },
     runtime: {
@@ -60,8 +59,8 @@ Movie.init(
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'painting',
+    modelName: 'movie',
   }
 );
 
-module.exports = Painting;
+module.exports = Movie;

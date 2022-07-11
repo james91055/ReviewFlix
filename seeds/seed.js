@@ -7,14 +7,11 @@ const movieData = require('./movieData.json');
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 
-  const movies = await User.bulkCreate(movieData, {
-    individualHooks: true,
-    returning: true,
-  });
+  const movies = await Movie.bulkCreate(movieData);
 
-  for (const movie of movieData) {
+  for (const movies of movieData) {
     await Movie.create({
-      ...movie,
+      ...movies,
       id: movies[Math.floor(Math.random() * movies.length)].id,
     });
   }
