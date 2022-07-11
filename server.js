@@ -7,7 +7,6 @@ const helpers = require('./utils/helpers');
 
 const sequelize = require('./config/connection');
 
-
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
@@ -29,6 +28,7 @@ const sess = {
 
 app.use(session(sess));
 
+
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
@@ -41,3 +41,4 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
+
