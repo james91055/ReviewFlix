@@ -1,162 +1,151 @@
 [
-    {
-      
-      "title": "Sing 2",
-      "mpaa":"PG",
-      "release_date": "2021" ,
-      "runtime": "1h 50m" ,
-      "imageURL":"https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
-      "genre": "Animation" ,
-      "outOfTen": "7.4" ,
-      "directors":"Garth Jennings, Christophe Lourdelet",
-      "writer": "Garth Jennings" ,
-      "stars": "Matthew McConaughey, Reese Witherspoon, Scarlett Johansson" ,
-      "movieURL": "https://www.singmovie.com/",
-      "previewURL": "https://youtu.be/aS7h3qM024g"
-    },
+  {
+    "title": "Sing 2",
+    "mpaa": "PG",
+    "release_date": "2021",
+    "runtime": "1h 50m",
+    "imageURL": "https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX380_CR0,20,380,562_.jpg",
+    "genre": "Animation",
+    "outOfTen": "7.4",
+    "directors": "Garth Jennings, Christophe Lourdelet",
+    "writer": "Garth Jennings",
+    "stars": "Matthew McConaughey, Reese Witherspoon, Scarlett Johansson",
+    "movieURL": "https://www.singmovie.com/",
+    "previewURL": "https://youtu.be/aS7h3qM024g"
+  },
 
-    {
-        
-        "title": "The Man From Toronto",
-        "mpaa":"PG-13",
-        "release_date": "2022" ,
-        "runtime": "1h 50m" ,
-        "imageURL":"https://m.media-amazon.com/images/M/MV5BZDM2YjA2ZjAtMmZmMy00NDhjLWJjYWYtYjc4ZGY0YzUzOTMyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
-        "genre": "Action" ,
-        "outOfTen": "5.7" ,
-        "directors":"Patrick Hughes",
-        "writer": "Robbie Fox, Chris Bremmer, Jason Blumenthal" ,
-        "stars": "Kevin Hart, Woody Harrelson, Jasmine Mathews" ,
-        "movieURL": "https://www.netflix.com/title/81251628",
-        "previewURL": "https://youtu.be/urqy8DrcGBs"
-      },
+  {
+    "title": "The Man From Toronto",
+    "mpaa": "PG-13",
+    "release_date": "2022",
+    "runtime": "1h 50m",
+    "imageURL": "https://m.media-amazon.com/images/M/MV5BZDM2YjA2ZjAtMmZmMy00NDhjLWJjYWYtYjc4ZGY0YzUzOTMyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX380_CR0,20,380,562_.jpg",
+    "genre": "Action",
+    "outOfTen": "5.7",
+    "directors": "Patrick Hughes",
+    "writer": "Robbie Fox, Chris Bremmer, Jason Blumenthal",
+    "stars": "Kevin Hart, Woody Harrelson, Jasmine Mathews",
+    "movieURL": "https://www.netflix.com/title/81251628",
+    "previewURL": "https://youtu.be/urqy8DrcGBs"
+  },
 
-      {
-        
-        "title": "Hustle",
-        "mpaa":"R",
-        "release_date": "2022" ,
-        "runtime": "1h 57m" ,
-        "imageURL":"https://m.media-amazon.com/images/M/MV5BYjdhYTE3NjMtZjI3OC00NzVlLWFiNTUtNzQ3NDNiNTI3NDg4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg",
-        "genre": "Comedy, Drama, Sport" ,
-        "outOfTen": "7.4" ,
-        "directors":"Jeremiah Zagar",
-        "writer": "Taylor Materne, Will Fetters" ,
-        "stars": "Adam Sandler, Queen Latifah, Juancho hernangomez" ,
-        "movieURL": "https://www.netflix.com/title/80242342",
-        "previewURL": "https://youtu.be/nM4iy0reaCA"
-      },
+  {
+    "title": "Hustle",
+    "mpaa": "R",
+    "release_date": "2022",
+    "runtime": "1h 57m",
+    "imageURL": "https://m.media-amazon.com/images/M/MV5BYjdhYTE3NjMtZjI3OC00NzVlLWFiNTUtNzQ3NDNiNTI3NDg4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_QL75_UX380_CR0,20,380,562_.jpg",
+    "genre": "Comedy, Drama, Sport",
+    "outOfTen": "7.4",
+    "directors": "Jeremiah Zagar",
+    "writer": "Taylor Materne, Will Fetters",
+    "stars": "Adam Sandler, Queen Latifah, Juancho hernangomez",
+    "movieURL": "https://www.netflix.com/title/80242342",
+    "previewURL": "https://youtu.be/nM4iy0reaCA"
+  },
 
-      {
-        
-        "title": "Red Notice",
-        "mpaa":"PG-13",
-        "release_date": "2021" ,
-        "runtime": "1h 58m" ,
-        "imageURL":"https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
-        "genre": "Action, Comedy, Thriller" ,
-        "outOfTen": "6.3" ,
-        "directors":"Rawson Marhsall Thurber",
-        "writer": "Rawson Marshall Thurber" ,
-        "stars": "Dwayne Johnson, Ryan Reynolds, Gal Gadot" ,
-        "movieURL": "",
-        "previewURL": "https://youtu.be/Pj0wz7zu3Ms"
-      },
+  {
+    "title": "Red Notice",
+    "mpaa": "PG-13",
+    "release_date": "2021",
+    "runtime": "1h 58m",
+    "imageURL": "https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX380_CR0,20,380,562_.jpg",
+    "genre": "Action, Comedy, Thriller",
+    "outOfTen": "6.3",
+    "directors": "Rawson Marhsall Thurber",
+    "writer": "Rawson Marshall Thurber",
+    "stars": "Dwayne Johnson, Ryan Reynolds, Gal Gadot",
+    "movieURL": "",
+    "previewURL": "https://youtu.be/Pj0wz7zu3Ms"
+  },
 
-      {
-        
-        "title": "Mean Girls",
-        "mpaa":"PG-13",
-        "release_date": "2004" ,
-        "runtime": "1h 37m" ,
-        "imageURL":"https://m.media-amazon.com/images/M/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_UY98_CR1,0,67,98_AL_.jpg",
-        "genre": "Comedy" ,
-        "outOfTen": "7.1" ,
-        "directors":"Mark Waters",
-        "writer": "Rosalind Wiseman, Tina Fey" ,
-        "stars": "Lindsay Lohan, Jonathan Bennett, Rachel McAdams" ,
-        "movieURL": "https://www.netflix.com/title/60034551",
-        "previewURL": "https://youtu.be/oDU84nmSDZY"
-      },
+  {
+    "title": "Mean Girls",
+    "mpaa": "PG-13",
+    "release_date": "2004",
+    "runtime": "1h 37m",
+    "imageURL": "https://m.media-amazon.com/images/M/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_QL75_UX380_CR0,20,380,562_.jpg",
+    "genre": "Comedy",
+    "outOfTen": "7.1",
+    "directors": "Mark Waters",
+    "writer": "Rosalind Wiseman, Tina Fey",
+    "stars": "Lindsay Lohan, Jonathan Bennett, Rachel McAdams",
+    "movieURL": "https://www.netflix.com/title/60034551",
+    "previewURL": "https://youtu.be/oDU84nmSDZY"
+  },
 
-      {
-        
-        "title": "The Adam Project",
-        "mpaa":"PG-13",
-        "release_date": "2022" ,
-        "runtime": "1h 46m" ,
-        "imageURL":"https://m.media-amazon.com/images/M/MV5BOWM0YWMwMDQtMjE5NS00ZTIwLWE1NWEtODViMWZjMWI2OTU3XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg",
-        "genre": "Action, Adventure, Comedy" ,
-        "outOfTen": "6.7" ,
-        "directors":"Shawn Levy",
-        "writer": "Jonathan Tropper, T.S. Nowlin, Jennifer Flackett" ,
-        "stars": "Ryan Reynolds, Walker Scobell, Mark Ruffalo" ,
-        "movieURL": "https://www.netflix.com/title/81309354",
-        "previewURL": "https://youtu.be/IE8HIsIrq4o"
-      },
+  {
+    "title": "The Adam Project",
+    "mpaa": "PG-13",
+    "release_date": "2022",
+    "runtime": "1h 46m",
+    "imageURL": "https://m.media-amazon.com/images/M/MV5BOWM0YWMwMDQtMjE5NS00ZTIwLWE1NWEtODViMWZjMWI2OTU3XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_QL75_UX380_CR0,20,380,562_.jpg",
+    "genre": "Action, Adventure, Comedy",
+    "outOfTen": "6.7",
+    "directors": "Shawn Levy",
+    "writer": "Jonathan Tropper, T.S. Nowlin, Jennifer Flackett",
+    "stars": "Ryan Reynolds, Walker Scobell, Mark Ruffalo",
+    "movieURL": "https://www.netflix.com/title/81309354",
+    "previewURL": "https://youtu.be/IE8HIsIrq4o"
+  },
 
-      {
-        
-        "title": "The Amazing Spider-Man",
-        "mpaa":"PG-13",
-        "release_date": "2012" ,
-        "runtime": "2h 16m" ,
-        "imageURL":"https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_UX67_CR0,0,67,98_AL_.jpg",
-        "genre": "Action, Adventure, Sci-Fi" ,
-        "outOfTen": "6.9" ,
-        "directors":"Marc Webb",
-        "writer": "James Vanderbilt, Alvin Sargent, Steve Kloves" ,
-        "stars": "Andrew Garfield, Emma Stone, Rhys Ifans" ,
-        "movieURL": "https://www.sonypictures.com/movies/theamazingspiderman",
-        "previewURL": "https://youtu.be/-tnxzJ0SSOw"
-      },
+  {
+    "title": "The Amazing Spider-Man",
+    "mpaa": "PG-13",
+    "release_date": "2012",
+    "runtime": "2h 16m",
+    "imageURL": "https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_QL75_UX380_CR0,20,380,562_.jpg",
+    "genre": "Action, Adventure, Sci-Fi",
+    "outOfTen": "6.9",
+    "directors": "Marc Webb",
+    "writer": "James Vanderbilt, Alvin Sargent, Steve Kloves",
+    "stars": "Andrew Garfield, Emma Stone, Rhys Ifans",
+    "movieURL": "https://www.sonypictures.com/movies/theamazingspiderman",
+    "previewURL": "https://youtu.be/-tnxzJ0SSOw"
+  },
 
-      {
-        
-        "title": "The Dark Knight Rises",
-        "mpaa":"PG-13",
-        "release_date": "2012" ,
-        "runtime": "2h 44m" ,
-        "imageURL":"https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
-        "genre": "Action, Drama" ,
-        "outOfTen": "8.4" ,
-        "directors":"Christopher Nolan",
-        "writer": "Jonathan Nolan, Christopher Nolan, David S. Goyer" ,
-        "stars": "Christian Bale, Tom Hardy, Anne Hathaway" ,
-        "movieURL": "https://www.thedarkknightrises.com/",
-        "previewURL": "https://youtu.be/g8evyE9TuYk"
-      },
+  {
+    "title": "The Dark Knight Rises",
+    "mpaa": "PG-13",
+    "release_date": "2012",
+    "runtime": "2h 44m",
+    "imageURL": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_QL75_UX380_CR0,20,380,562_.jpg",
+    "genre": "Action, Drama",
+    "outOfTen": "8.4",
+    "directors": "Christopher Nolan",
+    "writer": "Jonathan Nolan, Christopher Nolan, David S. Goyer",
+    "stars": "Christian Bale, Tom Hardy, Anne Hathaway",
+    "movieURL": "https://www.thedarkknightrises.com/",
+    "previewURL": "https://youtu.be/g8evyE9TuYk"
+  },
 
-      {
-        
-        "title": "A Madea Homecoming",
-        "mpaa":"TV-MA",
-        "release_date": "2022" ,
-        "runtime": "1h 45m" ,
-        "imageURL":"https://m.media-amazon.com/images/M/MV5BZjQwMmMyMWYtMGM2NS00NTJiLTg4YWYtM2E2NGIyMmMwZDhmXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg",
-        "genre": "Comedy, Drama, Romance" ,
-        "outOfTen": "5.6" ,
-        "directors":"Tyler Perry",
-        "writer": "Tyler Perry" ,
-        "stars": "Tyler Perry, Cassi Davis, David Mann" ,
-        "movieURL": "https://www.netflix.com/title/81510180",
-        "previewURL": "https://youtu.be/afJXk-RgzoQ"
-      },
+  {
+    "title": "A Madea Homecoming",
+    "mpaa": "TV-MA",
+    "release_date": "2022",
+    "runtime": "1h 45m",
+    "imageURL": "https://m.media-amazon.com/images/M/MV5BZjQwMmMyMWYtMGM2NS00NTJiLTg4YWYtM2E2NGIyMmMwZDhmXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_QL75_UX380_CR0,20,380,562_.jpg",
+    "genre": "Comedy, Drama, Romance",
+    "outOfTen": "5.6",
+    "directors": "Tyler Perry",
+    "writer": "Tyler Perry",
+    "stars": "Tyler Perry, Cassi Davis, David Mann",
+    "movieURL": "https://www.netflix.com/title/81510180",
+    "previewURL": "https://youtu.be/afJXk-RgzoQ"
+  },
 
-      {
-        
-        "title": "Back to the Outback",
-        "mpaa":"PG",
-        "release_date": "2021" ,
-        "runtime": "1h 35m" ,
-        "imageURL":"https://m.media-amazon.com/images/M/MV5BMmU0YzExYjctOGM0Yy00NzdkLTgxOGEtYjAwNzcxZGY4YTBiXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_UX67_CR0,0,67,98_AL_.jpg",
-        "genre": "Animation, Adventure, Comedy" ,
-        "outOfTen": "6.5" ,
-        "directors":"Harry Cripps, Clare Knight",
-        "writer": "Harry Cripps, Gregory Lessans" ,
-        "stars": "Eric Bana, Tim Minchin, Miranda Tapsell" ,
-        "movieURL": "https://www.netflix.com/title/81002813",
-        "previewURL": "https://youtu.be/dDNhtB7L8Lk"
-      }
-    
-  ]
+  {
+    "title": "Back to the Outback",
+    "mpaa": "PG",
+    "release_date": "2021",
+    "runtime": "1h 35m",
+    "imageURL": "https://m.media-amazon.com/images/M/MV5BMmU0YzExYjctOGM0Yy00NzdkLTgxOGEtYjAwNzcxZGY4YTBiXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_QL75_UX380_CR0,20,380,562_.jpg",
+    "genre": "Animation, Adventure, Comedy",
+    "outOfTen": "6.5",
+    "directors": "Harry Cripps, Clare Knight",
+    "writer": "Harry Cripps, Gregory Lessans",
+    "stars": "Eric Bana, Tim Minchin, Miranda Tapsell",
+    "movieURL": "https://www.netflix.com/title/81002813",
+    "previewURL": "https://youtu.be/dDNhtB7L8Lk"
+  }
+]
