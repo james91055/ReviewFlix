@@ -1,14 +1,15 @@
-
-{{#each movieData}}
-{movieData.id}
-{this.title}
+{{#each movies as |movie|}}
+{{movie.id}}
+{{movie.title}}
+{{movie.mpaa}}
+{{movie.release_date}}
+{{movie.runtime}}
+{{movie.imageURL}}
+{{movie.genre}}
+{{movie.outOfTen}}
+{{movie.directors}}
+{{movie.writer}}
+{{movie.stars}}
+{{movie.movieURL}}
+{{movie.previewURL}}
 {{/each}}
-
-<div class="container">
-<h1>Review Flix</h1>
-</div>
-{{> navlinks.handlebars}}
-
-{{!-- TODO: ADD SECTION DIV --}}
-{{!-- TODO: ADD TWO ROWS OF CAROUSELS --}}
-
