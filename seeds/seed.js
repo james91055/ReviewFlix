@@ -9,12 +9,12 @@ const seedDatabase = async () => {
 
   const movies = await Movie.bulkCreate(movieData);
 
-  for (const movie of movieData) {
-    await Movie.create({
-      ...movie,
-      id: movies[Math.floor(Math.random() * movies.length)].id,
-    });
-  }
+  // for (const movie of movieData) {
+  //   await Movie.create({
+  //     ...movie,
+  //     id: movies[Math.floor(Math.random() * movies.length)].id,
+  //   });
+  // }
 
   process.exit(0);
 };
