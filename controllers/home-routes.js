@@ -1,17 +1,13 @@
-const router = require('express').Router();
-const {Movie, Review} = require('../models');
+const router = require("express").Router();
+const { Movie, Review } = require("../models");
 
-
-
-router.get('/', async (req, res) => {
+router.get("/", async (req, res) => {
   try {
-    const movieData = await Movie.findAll({
-      
-    });
+    const movieData = await Movie.findAll({});
 
     const movies = movieData.map((movie) => movie.get({ plain: true }));
 
-    res.render('movieList', {
+    res.render("movieList", {
       movies,
       logged_in: req.session.logged_in,
     });
@@ -29,47 +25,37 @@ router.get('/', async (req, res) => {
 //   res.render('login');
 // });
 // TODO: double check against model
-router.get('/movie/:id', async (req, res) => {
-   
-      try {
-        const movieData = await Movie.findByPk(req.params.id, {
-          include: [
-            {
-              model: Movie,
-              attributes: [
-                'id',
-                'title',
-                'year',
-                'director',
-                'parental_rating',
-                'cast',
-                'movie_image',
-              ],
-            },
-          ],
+router.get("/movie/:id", async (req, res) => {
+  try {
+    const movieData = await Movie.findByPk(req.params.id, {
+      attributes: [
+        "id",
+        "title",
+        "release_date",
+        "directors",
+        "mpaa",
+        "stars",
+        "imageURL",
+      ],
+      include: [
+        {
+          model: Review,
+          attributes: ["content", "rating"],
         },
-         {
-            model: Review,
-            attributes: [
-                'content',
-                'rating',
-            ],
-            
-        });
-        const movie = movieData.get({ plain: true });
-        res.render('review', {movie});
-      } catch (err) {
-        console.log(err);
-        res.status(500).json(err);
-      }
-    }
-  );
+      ],
+    });
+    const movie = movieData.get({ plain: true });
+    res.render("review", { movie });
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
 
 module.exports = router;
 
 // const router = require('express').Router();
 // const { Movie } = require('../models');
-
 
 // router.get('/movies', async (req, res) => {
 //   try {
