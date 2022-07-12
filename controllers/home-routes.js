@@ -16,37 +16,31 @@ router.get("/", async (req, res) => {
   }
 });
 
-// router.get('/login', (req, res) => {
-//   if (req.session.logged_in) {
-//     res.redirect('/');
-//     return;
-//   }
+router.get("/login", (req, res) => {
+  if (req.session.logged_in) {
+    res.redirect("/");
+    return;
+  }
 
-//   res.render('login');
-// });
+  res.render("login");
+});
 // TODO: double check against model
 
-router.get('/movie/:id', async (req, res) => {
-   
-      try {
-        const movieData = await Movie.findByPk(req.params.id, {
-          include: 
-            {
-                model: Review,
-                attributes: [
-                    'content',
-                    'rating',
-                ]}
-        });
-        const movie = movieData.get({ plain: true });
-        res.render('review', {movie});
-      } catch (err) {
-        console.log(err);
-        res.status(500).json(err);
-      }
-    }
-  );
-
+router.get("/movie/:id", async (req, res) => {
+  try {
+    const movieData = await Movie.findByPk(req.params.id, {
+      include: {
+        model: Review,
+        attributes: ["content", "rating"],
+      },
+    });
+    const movie = movieData.get({ plain: true });
+    res.render("review", { movie });
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
 
 module.exports = router;
 
