@@ -1,49 +1,70 @@
-# Socially Fit
+# ReviewFlix
 
 ![License](https://img.shields.io/static/v1?label=license&message=mit&color=success)
 
 ## Table of Contents
 
 -   [Description](#description)
--   [Installation Instructions](#installation-instructions)
--   [How to contribute](#how-to-contribute)
--   [To Test](#to-test)
--   [License](#license)
+-   [Installation Instructions]
+(#installation-instructions)
+-   [Usage] (#usage)
+-   [License] (#license)
+-   [Questions and Contributions](#questions-and-contributions)
 
 ## Description
 
-Socially fit is a community driven social fitness application, where fitness posts are user generated. You can filter and search through thousands of different fitness posts to learn new exercises for your fitness routine.
+Reviewflix is a full-stack web application that gives users the ability to view pertinent data from Netflix's most popular movies and read and post movie reviews.
 
-This app was built using JS, Node, express, handlebars, sequelize.
+Reviewflix uses state-of-the-art full-stack technology including but not limited to:
+1. Node, 
+2. Express, 
+3. Handlebars, 
+4. MySQL, 
+5. Sequelize ORM, 
+6. MVC paradigm folder structure, 
+7. User authentication
+8. A polished user interface using Bootstrap and Material UI
+9. A responsive layout, 
+10. An interactive functionality that accepts and responds to user input, 
+11. High quality coding standards.
 
 ## Installation Instructions
 
-first run npm i top install dependencies, then run source db/schema.sql; in mysql shell. npm run seeds will seed the database, and npm start will start the server.
+1.  Goto the following link and clone the repository:
+2.  Once cloned, in your terminal of choice (i.e. VSCode, Git Bash etc.), type in "Run NPM I" to install the following Node.js dependecies:
+    A. Bcrypt
+    B. Connect-Session-Sequelize
+    C. DotENV
+    D. Express
+    E. Express-Handlebars
+    F. Express-Session
+    G. MySQL2
+    H. Sequelize
+3.  After installing all dependencies, please type "npm run start" from your terminal of choice to spin up the server.
+4.  Please goto http://localhost:3001 to access the Reviewflix Homepage.
 
-## How to contribute
-
-N/A
-
-## To Test
-
-N/A
+## Usage
+1.  Please goto http://localhost:3001 to access the Reviewflix Homepage.
+2.  Please click on a film from the user interface grid to access film details and reviews.
+3.  Please register as a new user or login with your password to post a new review.
 
 ## License
 
 The following is the license used for this project <br> https://choosealicense.com/licenses/mit
 
-## Questions
+## Questions And Contributions
 
-If you have any questions about our project you can find us on github at [mcewball13](https://github.com/mcewball13), [Frostquill](https://github.com/frostquill), [AlbertRyanFonseca](https://github.com/AlbertRyanFonseca) or you can email us at mcewen1984@hotmail.com, ruiz82494@gmail.com, and beezyscoding@gmail.com respectively.
+If you have any questions about our project you can find us on github at [DWKanas](https://github.com/DWKanas), [james91055](https://github.com/james91055), [guitarkeegan](https://github.com/guitarkeegan), [aaloksikand] (https://github.com/aaloksikand) or you can email us at dkanas0122@gmail.com, james91055@gmail.com, keegananglim@gmail.com and aalok.sikand@gmail.com respectively.
 
 ## Links
 
 Deployed Project:
 
-https://rocky-mountain-44170.herokuapp.com/
+Heroku Link: 
 
-https://github.com/AlbertRyanFonseca/Project2
+
+https://github.com/james91055/ReviewFlix
 
 ## GIF
 
-![](./public/images/socially-fit.gif)
+![](./public/images/reviewFlix.gif
