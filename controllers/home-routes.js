@@ -39,7 +39,6 @@ router.get('/movie/:id', async (req, res) => {
                 ]}
         });
         const movie = movieData.get({ plain: true });
-        console.log(movie);
         res.render('review', {movie});
       } catch (err) {
         console.log(err);
