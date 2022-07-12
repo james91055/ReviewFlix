@@ -1,6 +1,7 @@
 const withAuth = (req, res, next) => {
     
-    if (!req.session.logged_in) {
+    if (!req.session.loggedIn) {
+      console.log("You cannot pass")
       res.redirect('/login');
     } else {
       next();
