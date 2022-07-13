@@ -105,6 +105,9 @@ body{
     text-shadow: 3px 2px 4px #000000;
 }
 
+.movie-info{
+    margin-bottom: 0;
+}
 
 #name-signup{
     margin-left: 23px;

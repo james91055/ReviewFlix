@@ -1,25 +1,38 @@
-<div class="container">
+<div class="container text-center">
 <h1>Review Flix</h1>
 </div>
 {{> navlinks}}
 
-<div class="container gray-section">
-    <div id="poster-container">
-        {{!-- TODO: ADD MOVIE POSTER BELOW --}}
-        <img src="" alt="">
-    </div>
-    <div class="container row">
-        <div class="col-4">
-            {{!-- TODO: USER COLUMN --}}
-        </div>
-        <div class="col-4">
-            {{!-- TODO: REVIEW COLUMN --}}
-        </div>
-        <div class="col-4">
-            {{!-- TODO: RATING COLUMN --}}
-        </div>
-    </div>
-</div>
+<header class="bg-dark py-5 container">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-5 fw-bolder text-white mb-2">{{movie.title}}</h1>
+                                <p class="movie-info lead fw-normal text-white-50">{{movie.stars}}</p>
+                                <p class="movie-info lead fw-normal text-white-50">{{movie.release_date}}</p>
+                                <p class="movie-info lead fw-normal text-white-50">{{movie.stars}}</p>
+                                <p class="movie-info lead fw-normal text-white-50">{{movie.runtime}}</p>
+                                <p class="movie-info lead fw-normal text-white-50">{{movie.mpaa}}</p>
+                                <p class="movie-info lead fw-normal text-white-50">{{movie.genre}}</p>
+                                <p class="movie-info lead fw-normal text-white-50">{{movie.outOfTen}}</p>
+                                <p class="movie-info lead fw-normal text-white-50">{{movie.directors}}</p>
+                                <p class="movie-info lead fw-normal text-white-50">{{movie.outOfTen}}</p>
+                                <p class="movie-info lead fw-normal text-white-50">{{movie.writer}}</p>
+                                <p class="movie-info lead fw-normal text-white-50">{{movie.movieURL}}</p>
+                                <p class="movie-info lead fw-normal text-white-50">{{movie.previewURL}}</p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
+                                    <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="{{movie.imageURL}}" alt="movie poster"></div>
+                    </div>
+                </div>
+            </header>
+
+
 <div class="container mt-5">
     <div class="d-flex justify-content-center row">
         <div class="col-md-8">
@@ -53,16 +66,12 @@
 
 
 
-{{movie.id}}
-{{movie.title}}
-{{movie.mpaa}}
-{{movie.release_date}}
-{{movie.runtime}}
-{{movie.imageURL}}
-{{movie.genre}}
-{{movie.outOfTen}}
-{{movie.directors}}
-{{movie.writer}}
-{{movie.stars}}
-{{movie.movieURL}}
-{{movie.previewURL}}
+
+
+
+
+
+
+
+
+
