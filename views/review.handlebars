@@ -10,21 +10,12 @@
                             <div class="my-5 text-center text-xl-start">
                                 <h1 class="display-5 fw-bolder text-white mb-2">{{movie.title}}</h1>
                                 <p class="movie-info lead fw-normal text-white-50">{{movie.stars}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">{{movie.release_date}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">{{movie.stars}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">{{movie.runtime}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">{{movie.mpaa}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">{{movie.genre}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">{{movie.outOfTen}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">{{movie.directors}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">{{movie.outOfTen}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">{{movie.writer}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">{{movie.movieURL}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">{{movie.previewURL}}</p>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
-                                    <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
-                                </div>
+                                <p class="movie-info lead fw-normal text-white-50">Released {{movie.release_date}}, Runtime: {{movie.runtime}}, Rated: {{movie.mpaa}}, Genre: {{movie.genre}}</p>
+                                <p class="movie-info lead fw-normal text-white-50">Directors: {{movie.directors}}</p>
+                                <p class="movie-info lead fw-normal text-white-50">Member Rating: </p>
+                                <p class="movie-info lead fw-normal text-white-50">Writen by: {{movie.writer}}</p>
+                                <p class="movie-info lead fw-normal text-white-50"><a href="{{movie.movieURL}}">Official Homepage</a></p>
+                                <p class="movie-info lead fw-normal text-white-50"><a href="{{movie.previewURL}}">Trailer</a></p>
                             </div>
                         </div>
                         <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="{{movie.imageURL}}" alt="movie poster"></div>
@@ -33,7 +24,7 @@
             </header>
 
 
-<div class="container mt-5">
+<div class="container mt-5 mb-3">
     <div class="d-flex justify-content-center row">
         <div class="col-md-8">
             <div class="d-flex flex-column comment-section">
@@ -48,16 +39,16 @@
                         {{/each}}
                     </div>
                 </div>
-                <div class="bg-white">
+                {{!-- <div class="bg-white">
                     <div class="d-flex flex-row fs-12">
                         <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><span class="ml-1">Like</span></div>
                         <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span class="ml-1">Comment</span></div>
                         <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1">Share</span></div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="bg-light p-2">
                     <div class="d-flex flex-row align-items-start"><img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40"><textarea class="form-control ml-1 shadow-none textarea"></textarea></div>
-                    <div class="mt-2 text-right"><button class="btn btn-primary btn-sm shadow-none review-button" type="button">Post comment</button><button class="btn btn-outline-primary btn-sm ml-1 shadow-none" type="button">Cancel</button></div>
+                    <div class="mt-2 text-right"><button class="btn btn-danger btn-sm shadow-none review-button me-2" type="button">Post comment</button><button class="btn btn-outline-dark btn-sm ml-1 shadow-none" type="button">Cancel</button></div>
                 </div>
             </div>
         </div>
