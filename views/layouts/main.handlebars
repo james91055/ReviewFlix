@@ -1,3 +1,5 @@
+{{! Define the home page with Title and information needed in every page }}
+
 <html lang="en">
   <head>
 
@@ -25,6 +27,7 @@
 
     </div>
     <main>
+      {{! Place to input certain handlebar page dpeneds on the routes that the user at }}
       {{{body}}}
     </main>
     <script
@@ -38,6 +41,6 @@
       <script src="/js/login.js"></script>
     {{/if}}
     <script src="/js/review.js"></script>
-    {{! this could be a problem: use id rather than tag }}
+
   </body>
 </html>

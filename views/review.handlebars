@@ -1,3 +1,4 @@
+{{!-- Our review handlebar allows loggedIn user to review, user that are not loogedIn to view --}}
 <div class="container text-center">
 <h1>Reviews</h1>
 {{> navlinks}}
@@ -22,48 +23,6 @@
                                     <li><a href="{{movie.previewURL}}">Trailer</a></li>
                                 </ul>
                                 
-                                {{!-- <p class="movie-info lead fw-normal text-white-50">{{movie.stars}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">Released {{movie.release_date}},Runtime: {{movie.runtime}}, Rated: {{movie.mpaa}}, Genre: {{movie.genre}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">Directors: {{movie.directors}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">Member Rating: </p>
-                                <p class="movie-info lead fw-normal text-white-50">Writen by: {{movie.writer}}</p>
-                                <p class="movie-info lead fw-normal text-white-50"><a href="{{movie.movieURL}}">Official Homepage</a></p>
-                                <p class="movie-info lead fw-normal text-white-50"><a href="{{movie.previewURL}}">Trailer</a></p> --}}
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="{{movie.imageURL}}" alt="movie poster"></div>
-                    </div>
-                </div>
-            </header>
-
-
-<div class="container mt-5 mb-3">
-    <div class="d-flex justify-content-center row pb-5">
-        <div class="col-md-8">
-            <div class="d-flex flex-column comment-section ">
-                <div class="bg-white  p-2">
-
-
-
-
-                    <div class="mt-2">
-                        {{#each movie.reviews as |review|}}
-                         <div class="d-flex flex-row align-items-start"><img 
-                    class="rounded-circle" style="width:40px; height:40px;" src={{review.user.profileUrl}}></div>
-                        <p class="comment-text">{{review.user.name}}: {{review.content}}</p>
-                        <p class="comment-text">{{review.rating}}</p>
-                        {{/each}}
-                    </div>
-
-
-                </div>
-                {{!-- <div class="bg-white">
-                    <div class="d-flex flex-row fs-12">
-                        <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><span class="ml-1">Like</span></div>
-                        <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span class="ml-1">Comment</span></div>
-                        <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1">Share</span></div>
-                    </div>
-                </div> --}}
                 <div class="bg-light p-2">
                     {{#if loggedIn}}
 
