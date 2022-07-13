@@ -1,132 +1,161 @@
-:root{
-    --bg: black;
-    --title: rgb(196, 13, 27);
-    --bg_gray: rgb(39, 39, 39);
+:root {
+  --bg: black;
+  --title: rgb(196, 13, 27);
+  --bg_gray: rgb(39, 39, 39);
 }
 
-h1{
-    color: var(--title)
+h1 {
+  color: var(--title);
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+#h1 {
+  color: var(--title);
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+  letter-spacing: 1px;
+  text-decoration: none;
 }
 
 #nav {
-    color: white;
+  color: white;
+  text-decoration: none;
+}
+#nav a {
+  font-family: "Bebas Neue", cursive;
+  font-size: 20pt;
+  text-decoration: none;
+  color: white;
 }
 
-.gray-section{
-       
-    background-color: var(--bg_gray);
+a:hover {
+  color: white;
+  cursor: pointer;
+  opacity: 0.5;
 }
 
-body{
-    background-image: url(http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg);
-    /* background: var(--bg) */
+.gray-section {
+  background-color: var(--bg_gray);
 }
 
-.date{font-size: 11px}
+body {
+  background-image: url(http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg);
+  backdrop-filter: brightness(0.5);
 
-.comment-text{font-size: 12px}
+  /* background: var(--bg) */
+}
 
-.fs-12{font-size: 12px}
+.date {
+  font-size: 11px;
+}
 
-.shadow-none{box-shadow: none}
+.comment-text {
+  font-size: 12px;
+}
 
-.name{color: var(--title)}
+.fs-12 {
+  font-size: 12px;
+}
 
-.cursor:hover{color: var(--title)}
+.shadow-none {
+  box-shadow: none;
+}
 
-.cursor{cursor: pointer}
+.name {
+  color: var(--title);
+}
 
-.textarea{resize: none}
+.cursor:hover {
+  color: var(--title);
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.textarea {
+  resize: none;
+}
 
 /* login page */
 
-.flex-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 100%;
-    margin-top: 275px;
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 275px;
 }
 
-.col-md-6{
-    text-align: center;
-    
+.col-md-6 {
+  text-align: center;
 }
 
-.login-form{
-    background-color: var(--bg_gray);
-    padding-right: 25px;
-    padding-left: 25px;
-    
+.login-form {
+  background-color: var(--bg_gray);
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
-.login-header{
-    color: var(--title);
-    background-color: var(--bg_gray);
-    margin-bottom: 0px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    text-shadow: 3px 2px 4px #000000;
-    
-     
+.login-header {
+  color: var(--title);
+  background-color: var(--bg_gray);
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  text-shadow: 3px 2px 4px #000000;
 }
 
-.signup-form{
-    background-color: var(--bg_gray);
-    padding-left: 25px;
-    padding-right: 25px;
-    
+.signup-form {
+  background-color: var(--bg_gray);
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
-.signup-header{
-    color: var(--title);
-    background-color: var(--bg_gray);
-    margin-bottom: 0px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    text-shadow: 3px 2px 4px #000000;
-    
-    
+.signup-header {
+  color: var(--title);
+  background-color: var(--bg_gray);
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  text-shadow: 3px 2px 4px #000000;
 }
 
-.btn-primary{
-    padding-top: 8px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding-bottom: 8px;
-    margin-left: 95px;
+.btn-primary {
+  padding-top: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  margin-left: 95px;
 }
 
-.form-group{
-    color: white;
-    text-align: left;
-    text-shadow: 3px 2px 4px #000000;
+.form-group {
+  color: white;
+  text-align: left;
+  text-shadow: 3px 2px 4px #000000;
 }
 
-.movie-info{
-    margin-bottom: 0;
+.movie-info {
+  margin-bottom: 0;
 }
 
-#name-signup{
-    margin-left: 23px;
-    
-
+#name-signup {
+  margin-left: 23px;
 }
 
-#email-signup{
-    margin-left: 28px;
+#email-signup {
+  margin-left: 28px;
+}
+/* 
+#password-signup {
+} */
+
+#email-login {
+  margin-left: 28px;
 }
 
-#password-signup{
-
-}
-
-#email-login{
-    margin-left: 28px;
-}
-
-#password-login{
-
-}
+/* #password-login {
+} */
