@@ -15,7 +15,14 @@ reviewButtonEl.addEventListener("click", async ()=>{
             headers: { 'Content-Type': 'application/json' },
           });
           if (response.ok) {
-            document.location.replace(`/movie/${movieId}`);
+            console.log(response)
+            let url = response.url.split("/")
+            if (url[url.length - 1] === "login") {
+
+              document.location.replace(`/login`);
+            } else {
+              document.location.replace(`/movie/${movieId}`);
+            }
           } else {
             alert('Failed to sign up.');
           }
