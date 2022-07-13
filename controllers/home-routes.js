@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { Movie, Review } = require("../models");
+const { Movie, Review, User } = require("../models");
 
 router.get("/", async (req, res) => {
   try {
@@ -31,10 +31,14 @@ router.get("/movie/:id", async (req, res) => {
     const movieData = await Movie.findByPk(req.params.id, {
       include: {
         model: Review,
-        attributes: ["content", "rating"],
+        attributes: ["content", "user_id", "rating"],
+        include: [{model: User}]
       },
     });
     const movie = movieData.get({ plain: true });
+
+
+
     res.render("review", { movie });
   } catch (err) {
     console.log(err);
