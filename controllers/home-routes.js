@@ -31,7 +31,7 @@ router.get("/movie/:id", async (req, res) => {
     const movieData = await Movie.findByPk(req.params.id, {
       include: {
         model: Review,
-        attributes: ["content", "user_id", "rating"],
+        attributes: ["content", "user_id"],
         include: [{ model: User }],
       },
     });
