@@ -52,6 +52,9 @@ Movie.init(
     previewURL: {
         type: DataTypes.STRING,
     },
+    movieSummary: {
+        type: DataTypes.TEXT,
+    }
 
 
     },

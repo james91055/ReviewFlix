@@ -11,7 +11,8 @@
     "writer": "Garth Jennings",
     "stars": "Matthew McConaughey, Reese Witherspoon, Scarlett Johansson",
     "movieURL": "https://www.singmovie.com/",
-    "previewURL": "https://youtu.be/aS7h3qM024g"
+    "previewURL": "https://youtu.be/aS7h3qM024g",
+    "movieSummary": "Buster Moon and his friends must persuade reclusive rock star Clay Calloway to join them for the opening of a new show."
   },
 
   {
@@ -26,7 +27,8 @@
     "writer": "Robbie Fox, Chris Bremmer, Jason Blumenthal",
     "stars": "Kevin Hart, Woody Harrelson, Jasmine Mathews",
     "movieURL": "https://www.netflix.com/title/81251628",
-    "previewURL": "https://youtu.be/urqy8DrcGBs"
+    "previewURL": "https://youtu.be/urqy8DrcGBs",
+    "movieSummary": "The world's deadliest assassin and New York's biggest screw-up are mistaken for each other at an Airbnb rental."
   },
 
   {
@@ -41,7 +43,8 @@
     "writer": "Taylor Materne, Will Fetters",
     "stars": "Adam Sandler, Queen Latifah, Juancho hernangomez",
     "movieURL": "https://www.netflix.com/title/80242342",
-    "previewURL": "https://youtu.be/nM4iy0reaCA"
+    "previewURL": "https://youtu.be/nM4iy0reaCA",
+    "movieSummary": "A basketball scout discovers a phenomenal street ball player while in Spain and sees the prospect as his opportunity to get back into the NBA."
   },
 
   {
@@ -55,8 +58,9 @@
     "directors": "Rawson Marhsall Thurber",
     "writer": "Rawson Marshall Thurber",
     "stars": "Dwayne Johnson, Ryan Reynolds, Gal Gadot",
-    "movieURL": "",
-    "previewURL": "https://youtu.be/Pj0wz7zu3Ms"
+    "movieURL": "https://www.netflix.com/title/81161626",
+    "previewURL": "https://youtu.be/Pj0wz7zu3Ms",
+    "movieSummary": "An Interpol agent successfully tracks down the world's most wanted art thief, with help from a rival thief. But nothing is as it seems, as a series of double-crosses ensue."
   },
 
   {
@@ -71,7 +75,8 @@
     "writer": "Rosalind Wiseman, Tina Fey",
     "stars": "Lindsay Lohan, Jonathan Bennett, Rachel McAdams",
     "movieURL": "https://www.netflix.com/title/60034551",
-    "previewURL": "https://youtu.be/oDU84nmSDZY"
+    "previewURL": "https://youtu.be/oDU84nmSDZY",
+    "movieSummary": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George."
   },
 
   {
@@ -86,7 +91,8 @@
     "writer": "Jonathan Tropper, T.S. Nowlin, Jennifer Flackett",
     "stars": "Ryan Reynolds, Walker Scobell, Mark Ruffalo",
     "movieURL": "https://www.netflix.com/title/81309354",
-    "previewURL": "https://youtu.be/IE8HIsIrq4o"
+    "previewURL": "https://youtu.be/IE8HIsIrq4o",
+    "movieSummary": "After accidentally crash-landing in 2022, time-traveling fighter pilot Adam Reed teams up with his 12-year-old self for a mission to save the future."
   },
 
   {
@@ -101,7 +107,8 @@
     "writer": "James Vanderbilt, Alvin Sargent, Steve Kloves",
     "stars": "Andrew Garfield, Emma Stone, Rhys Ifans",
     "movieURL": "https://www.sonypictures.com/movies/theamazingspiderman",
-    "previewURL": "https://youtu.be/-tnxzJ0SSOw"
+    "previewURL": "https://youtu.be/-tnxzJ0SSOw",
+    "movieSummary": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe."
   },
 
   {
@@ -116,7 +123,8 @@
     "writer": "Jonathan Nolan, Christopher Nolan, David S. Goyer",
     "stars": "Christian Bale, Tom Hardy, Anne Hathaway",
     "movieURL": "https://www.thedarkknightrises.com/",
-    "previewURL": "https://youtu.be/g8evyE9TuYk"
+    "previewURL": "https://youtu.be/g8evyE9TuYk",
+    "movieSummary": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane."
   },
 
   {
@@ -131,7 +139,8 @@
     "writer": "Tyler Perry",
     "stars": "Tyler Perry, Cassi Davis, David Mann",
     "movieURL": "https://www.netflix.com/title/81510180",
-    "previewURL": "https://youtu.be/afJXk-RgzoQ"
+    "previewURL": "https://youtu.be/afJXk-RgzoQ",
+    "movieSummary": "Madea's back hallelujer. And she's not putting up with any nonsense as family drama erupts at her great-grandson's college graduation celebration."
   },
 
   {
@@ -146,6 +155,7 @@
     "writer": "Harry Cripps, Gregory Lessans",
     "stars": "Eric Bana, Tim Minchin, Miranda Tapsell",
     "movieURL": "https://www.netflix.com/title/81002813",
-    "previewURL": "https://youtu.be/dDNhtB7L8Lk"
+    "previewURL": "https://youtu.be/dDNhtB7L8Lk",
+    "movieSummary": "Tired of being locked in a reptile house where humans gawk at them like they're monsters, a group of Australia's deadliest creatures plot a daring escape from their zoo to the Outback."
   }
 ]
