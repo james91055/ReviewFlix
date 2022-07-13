@@ -1,5 +1,5 @@
 
-
+// on click of review button, grab specific movie and add the relevant reviews and users that made the reviews
 const textAreaEl = document.querySelector("textarea");
 const reviewButtonEl = document.querySelector(".review-button");
 

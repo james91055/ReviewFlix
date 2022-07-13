@@ -1,5 +1,5 @@
 let profileUrl;
-
+// login form 
 const loginFormHandler = async (event) => {
   event.preventDefault();
 
@@ -20,13 +20,14 @@ const loginFormHandler = async (event) => {
     }
   }
 };
+// signup form to add users and replace them in the database
 const signupFormHandler = async (event) => {
   event.preventDefault();
 
   const name = document.querySelector("#name-signup").value.trim();
   const email = document.querySelector("#email-signup").value.trim();
   const password = document.querySelector("#password-signup").value.trim();
-  //Add Cloudinary stuff here
+  
 
   if (name && email && password) {
     const response = await fetch("/api/users", {
@@ -42,7 +43,7 @@ const signupFormHandler = async (event) => {
     }
   }
 };
-
+// cloudinary code to uplaod profile picture
 const cloudName = "df7rc1j7l"; // replace with your own cloud name
 const uploadPreset = "rckr81y9"; // replace with your own upload preset
 
@@ -55,7 +56,7 @@ var myWidget = cloudinary.createUploadWidget({
     }
   }
 )
-
+// query selectors for cloudinary upload widgets
 document.getElementById("upload_widget").addEventListener("click", function(){
     myWidget.open();
   }, false);

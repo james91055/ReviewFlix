@@ -2,7 +2,7 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 class Review extends Model {}
-
+// review model to create the reviews made by users
 Review.init(
   {
     id: {
