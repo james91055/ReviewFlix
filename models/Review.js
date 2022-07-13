@@ -19,6 +19,11 @@ Review.init(
         type: DataTypes.INTEGER,
         allowNull: false,
     },
+    date: {
+      type: DataTypes.DATE,
+      defaultValue: DataTypes.NOW,
+      allowNull: false,
+    },
     user_id: {
         type: DataTypes.INTEGER,
         references: {
