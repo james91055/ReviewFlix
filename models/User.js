@@ -1,6 +1,6 @@
-const { Model, DataTypes } = require('sequelize');
-const bcrypt = require('bcrypt');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const bcrypt = require("bcrypt");
+const sequelize = require("../config/connection");
 
 class User extends Model {
   checkPassword(loginPw) {
@@ -37,9 +37,10 @@ User.init(
     },
     profileUrl: {
       type: DataTypes.STRING,
-      allowNull: true,
-      defaultValue: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2019%2F07%2Fgettyimages-81692747-2000.jpg&q=60"
-    }
+
+      defaultValue:
+        "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2019%2F07%2Fgettyimages-81692747-2000.jpg&q=60",
+    },
   },
   {
     hooks: {
@@ -54,21 +55,19 @@ User.init(
       },
       beforeUpdate: async (updatedUser) => {
         try {
-          updatedUser.password = await bcrypt.hash(
-            updatedUser.password,
-            10
-          );
+          updatedUser.password = await bcrypt.hash(updatedUser.password, 10);
           return updatedUser;
         } catch (err) {
           console.log(err);
           return err;
         }
-      }},
+      },
+    },
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'user'
+    modelName: "user",
   }
 );
 

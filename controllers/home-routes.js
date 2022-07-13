@@ -27,21 +27,23 @@ router.get("/login", (req, res) => {
 // TODO: double check against model
 
 router.get("/movie/:id", async (req, res) => {
-  
   try {
     const movieData = await Movie.findByPk(req.params.id, {
       include: {
         model: Review,
         attributes: ["content", "user_id", "rating"],
-        include: [{model: User}]
+        include: [{ model: User }],
       },
     });
-    
+
     const movie = movieData.get({ plain: true });
 
-    console.log(req.session)
-    res.render("review", { movie:movie, photo:req.session.photo });
-
+    console.log(req.session);
+    res.render("review", {
+      movie: movie,
+      photo: req.session.photo,
+      loggedIn: req.session.loggedIn,
+    });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);

@@ -45,12 +45,11 @@
 
 
 
-                    <div class="d-flex flex-row user-info"><img class="rounded-circle" style="width:40px; height:40px;" src={{photo}}>
-                        <div class="d-flex flex-column justify-content-start ml-2"><span class="d-block font-weight-bold name">{{user.name}}</span><span class="date text-black-50">Shared publicly - </span></div>
-                    </div>
 
                     <div class="mt-2">
                         {{#each movie.reviews as |review|}}
+                         <div class="d-flex flex-row align-items-start"><img 
+                    class="rounded-circle" style="width:40px; height:40px;" src={{review.user.profileUrl}}></div>
                         <p class="comment-text">{{review.user.name}}: {{review.content}}</p>
                         <p class="comment-text">{{review.rating}}</p>
                         {{/each}}
@@ -66,9 +65,13 @@
                     </div>
                 </div> --}}
                 <div class="bg-light p-2">
-                    <div class="d-flex flex-row align-items-start"><img class="rounded-circle" style="width:40px; height:40px;" src={{photo}}><textarea class="form-control ml-1 shadow-none textarea"></textarea></div>
+                    {{#if loggedIn}}
+
+                    <div class="d-flex flex-row align-items-start"><img 
+                    class="rounded-circle" style="width:40px; height:40px;" src={{photo}}><textarea class="form-control ml-1 shadow-none textarea"></textarea></div>
                     <div class="mt-2 text-right"><button class="btn btn-danger btn-sm shadow-none review-button me-2" type="button">Post Review</button>
                     </div>
+                    {{/if}}
                 </div>
             </div>
         </div>
