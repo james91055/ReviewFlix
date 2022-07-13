@@ -42,8 +42,6 @@ a:hover {
 body {
   background-image: url(http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg);
   backdrop-filter: brightness(0.5);
-
-  /* background: var(--bg) */
 }
 
 .date {
@@ -94,7 +92,7 @@ body {
 .col-md-6 {
   text-align: center;
 }
-
+/* login form */
 .login-form {
   background-color: var(--bg_gray);
   padding-right: 25px;
@@ -109,7 +107,7 @@ body {
   padding-top: 10px;
   text-shadow: 3px 2px 4px #000000;
 }
-
+/* signup form */
 .signup-form {
   background-color: var(--bg_gray);
   padding-left: 25px;
@@ -150,13 +148,10 @@ body {
 #email-signup {
   margin-left: 28px;
 }
-/* 
-#password-signup {
-} */
+
 
 #email-login {
   margin-left: 28px;
 }
 
-/* #password-login {
-} */
+
