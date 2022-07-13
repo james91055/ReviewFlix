@@ -2,7 +2,7 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 class Movie extends Model {}
-
+// movie model to create the movies displayed once clicked
 Movie.init(
   {
     id: {
