@@ -1,9 +1,10 @@
+{{!-- Allows loggedIn user to make an review and users that are not loggedIn to see the reviews --}}
 <div class="container text-center">
 <h1>Reviews</h1>
 {{> navlinks}}
 </div>
 
-
+{{!-- Render movie data --}}
 <header class="bg-dark py-5 container">
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
@@ -38,7 +39,7 @@
 
 
 
-
+{{!-- Comment section with avatar --}}
                     <div class="mt-2">
                         {{#each movie.reviews as |review|}}
                          <div class="d-flex flex-row align-items-start"><img 
