@@ -12,15 +12,15 @@
 {{!-- Login Form --}}
     <form class="form login-form">
       <div class="form-group">
-        <label for="email-login">Email:</label>
-        <input class="form-input" type="text" id="email-login" />
+        <label for="email-login col-form-label">Email:</label>
+        <input class="form-input form-control" type="text" id="email-login" />
       </div>
       <div class="form-group">
-        <label for="password-login">Password:</label>
-        <input class="form-input" type="password" id="password-login" />
+        <label for="password-login col-form-label">Password:</label>
+        <input class="form-input form-control" type="password" id="password-login" />
       </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">Login</button>
+      <div class="form-group mt-3">
+        <button class="btn btn-danger" type="submit">Login</button>
       </div>
     </form>
   </div>
@@ -29,24 +29,27 @@
     <h2 class="signup-header">Signup</h2>
     <form class="form signup-form">
       <div class="form-group">
-        <label for="name-signup">Name:</label>
-        <input class="form-input" type="text" id="name-signup" />
+        <label class="col-form-label" for="name-signup">Name:</label>
+        <input class="form-input form-control" type="text" id="name-signup" />
       </div>
       <div class="form-group">
-        <label for="email-signup">Email:</label>
-        <input class="form-input" type="text" id="email-signup" />
+        <label class="col-form-label" for="email-signup">Email:</label>
+        <input class="form-input form-control" type="text" id="email-signup" />
       </div>
       <div class="form-group">
-        <label for="password-signup">Password:</label>
-        <input class="form-input" type="password" id="password-signup" />
+        <label class="col-form-label" for="password-signup">Password:</label>
+        <input class="form-input form-control" type="password" id="password-signup" />
       </div>
 
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">Signup</button>
+      <div class="form-group mt-3">
+        <button class="btn btn-danger" type="submit">Signup</button>
       </div>
     </form>
     {{!-- Buttons to upload cloudinary --}}
-    <button id="upload_widget" class="cloudinary-button btn btn-primary">Upload Profile Photo</button>
+    <div class="container text-center">
+<button id="upload_widget" class="cloudinary-button btn btn-danger">Upload Profile Photo</button>
+    </div>
+    
 
   </div>
 </div>
