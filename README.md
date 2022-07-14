@@ -5,10 +5,9 @@
 ## Table of Contents
 
 -   [Description](#description)
--   [Installation Instructions]
-(#installation-instructions)
--   [Usage] (#usage)
--   [License] (#license)
+-   [Installation](#installation-instructions)
+-   [Usage](#usage)
+-   [License](#license)
 -   [Questions and Contributions](#questions-and-contributions)
 
 ## Description
@@ -67,4 +66,4 @@ https://github.com/james91055/ReviewFlix
 
 ## GIF
 
-![](./public/images/reviewFlix.gif
+![preview](./public/images/ReviewFlix.gif)

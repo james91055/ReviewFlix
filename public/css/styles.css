@@ -138,6 +138,9 @@ body {
   margin-bottom: 0;
 }
 
+#upload_widget{
+  font-weight: bold;
+}
 
 
 @media (max-width: 600px) {
