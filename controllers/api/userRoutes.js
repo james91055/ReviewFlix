@@ -38,7 +38,7 @@ router.post("/login", async (req, res) => {
         .json({ message: "Incorrect email or password, please try again" });
       return;
     }
-
+// create a new session and save the user_id, loggedIn, and photo variables to the req.session. 
     req.session.save(() => {
       req.session.user_id = userData.id;
       req.session.loggedIn = true;
@@ -50,7 +50,7 @@ router.post("/login", async (req, res) => {
     res.status(400).json(err);
   }
 });
-
+// allow the user to logout if they are logged in, otherwise send a 404 status code. 
 router.post("/logout", (req, res) => {
   if (req.session.loggedIn) {
     req.session.destroy(() => {

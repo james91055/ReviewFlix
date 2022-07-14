@@ -13,8 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 const hbs = exphbs.create({ helpers });
-
-// TODO: Variable for secret
+// Set up sessions
 const sess = {
   secret: "Super secret secret",
   cookie: {},
