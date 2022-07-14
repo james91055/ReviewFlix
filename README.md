@@ -58,13 +58,7 @@ If you have any questions about our project you can find us on github at [DWKana
 
 ## Links
 
-Deployed Project:
+Deployed Project:  https://github.com/james91055/ReviewFlix
 
-Heroku Link: 
+Heroku Link: https://hidden-beyond-31822.herokuapp.com/
 
-
-https://github.com/james91055/ReviewFlix
-
-## GIF
-
-![](./public/images/reviewFlix.gif
