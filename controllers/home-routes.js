@@ -4,7 +4,7 @@ const { Movie, Review, User } = require("../models");
 router.get("/", async (req, res) => {
   try {
     // find all movies from table
-    const movieData = await Movie.findAll({});
+    const movieData = await Movie.findAll();
     // for each movie object in the array, 'get' the essential information.
     const movies = movieData.map((movie) => movie.get({ plain: true }));
 // render the movieList.handlebars page. Pass in movies array and the logged in parameter of the req.session object.
@@ -35,13 +35,14 @@ router.get("/movie/:id", async (req, res) => {
         // display any previous reviews
         model: Review,
         attributes: ["content", "user_id"],
+        // use this to see which user made each review.
         include: [{ model: User }],
       },
     });
 
     const movie = movieData.get({ plain: true });
 
-    console.log(req.session);
+    // pass movie object to view along with currently logged in user photo, and the boolean loggedIn. 
     res.render("review", {
       movie: movie,
       photo: req.session.photo,
@@ -55,23 +56,3 @@ router.get("/movie/:id", async (req, res) => {
 
 module.exports = router;
 
-// const router = require('express').Router();
-// const { Movie } = require('../models');
-
-// router.get('/movies', async (req, res) => {
-//   try {
-
-//   const movieData = await Movie.findAll()
-//   console.log(movieData)
-//   const movies = movieData.map((movie) =>
-//     movie.get({ plain: true })
-//   );
-//   console.log(movies);
-
-//   //res.json(movie);
-//   res.render('movieList', {movies});
-//   } catch (err) {
-//     console.log(err);
-//     res.status(500).json(err);
-//   }
-// });
