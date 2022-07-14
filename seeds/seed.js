@@ -8,7 +8,7 @@ const userData = require('./userData.json');
 const movieData = require('./movieData.json');
 const reviewData = require('./reviewData.json');
 
-
+// Use the data from seeds file and send it with the format we setup in models folder
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 

@@ -1,9 +1,10 @@
+{{!-- Allows loggedIn user to make an review and users that are not loggedIn to see the reviews --}}
 <div class="container text-center">
 <h1>Reviews</h1>
 {{> navlinks}}
 </div>
 
-
+{{!-- Render movie data --}}
 <header class="bg-dark py-5 container">
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
@@ -21,14 +22,7 @@
                                     <li><a href="{{movie.movieURL}}">Official Homepage</a></li>
                                     <li><a href="{{movie.previewURL}}">Trailer</a></li>
                                 </ul>
-                                
-                                {{!-- <p class="movie-info lead fw-normal text-white-50">{{movie.stars}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">Released {{movie.release_date}},Runtime: {{movie.runtime}}, Rated: {{movie.mpaa}}, Genre: {{movie.genre}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">Directors: {{movie.directors}}</p>
-                                <p class="movie-info lead fw-normal text-white-50">Member Rating: </p>
-                                <p class="movie-info lead fw-normal text-white-50">Writen by: {{movie.writer}}</p>
-                                <p class="movie-info lead fw-normal text-white-50"><a href="{{movie.movieURL}}">Official Homepage</a></p>
-                                <p class="movie-info lead fw-normal text-white-50"><a href="{{movie.previewURL}}">Trailer</a></p> --}}
+                    
                             </div>
                         </div>
                         <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="{{movie.imageURL}}" alt="movie poster"></div>
@@ -45,7 +39,7 @@
 
 
 
-
+{{!-- Comment section with avatar --}}
                     <div class="mt-2">
                         {{#each movie.reviews as |review|}}
                          <div class="d-flex flex-row align-items-start"><img 
@@ -57,13 +51,7 @@
 
 
                 </div>
-                {{!-- <div class="bg-white">
-                    <div class="d-flex flex-row fs-12">
-                        <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><span class="ml-1">Like</span></div>
-                        <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span class="ml-1">Comment</span></div>
-                        <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1">Share</span></div>
-                    </div>
-                </div> --}}
+     
                 <div class="bg-light p-2">
                     {{#if loggedIn}}
 
