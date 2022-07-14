@@ -140,17 +140,7 @@ body {
   margin-bottom: 0;
 }
 
-#name-signup {
-  margin-left: 23px;
-}
 
-#email-signup {
-  margin-left: 28px;
-}
-
-#email-login {
-  margin-left: 28px;
-}
 
 @media (max-width: 600px) {
   .card-group {
