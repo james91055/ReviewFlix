@@ -8,7 +8,6 @@ router.post('/', withAuth, async (req, res) => {
     // create new review with the information passed in the body. pass the current user_id when creating a new Review object. 
     const newReview = await Review.create({
       ...req.body,
-      // 
       user_id: req.session.user_id,
     });
     
