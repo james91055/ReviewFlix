@@ -61,8 +61,7 @@ Deployed Project:
 
 Heroku Link: 
 
-
-https://github.com/james91055/ReviewFlix
+https://hidden-beyond-31822.herokuapp.com
 
 ## GIF
 
