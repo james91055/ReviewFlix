@@ -61,7 +61,7 @@ Deployed Project:
 
 Heroku Link: 
 
-https://hidden-beyond-31822.herokuapp.com
+https://review-flix.herokuapp.com/
 
 ## GIF
 
