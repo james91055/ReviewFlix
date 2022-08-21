@@ -44,22 +44,22 @@ const signupFormHandler = async (event) => {
   }
 };
 // cloudinary code to uplaod profile picture
-const cloudName = "df7rc1j7l"; // replace with your own cloud name
-const uploadPreset = "rckr81y9"; // replace with your own upload preset
+// const cloudName = "df7rc1j7l"; 
+// const uploadPreset = "rckr81y9"; 
 
-var myWidget = cloudinary.createUploadWidget({
-  cloudName,
-  uploadPreset}, (error, result) => { 
-    if (!error && result && result.event === "success") { 
-      console.log('Done! Here is the image info: ', result.info.url);
-      profileUrl = result.info.url; 
-    }
-  }
-)
+// var myWidget = cloudinary.createUploadWidget({
+//   cloudName,
+//   uploadPreset}, (error, result) => { 
+//     if (!error && result && result.event === "success") { 
+//       console.log('Done! Here is the image info: ', result.info.url);
+//       profileUrl = result.info.url; 
+//     }
+//   }
+// )
 // query selectors for cloudinary upload widgets
-document.getElementById("upload_widget").addEventListener("click", function(){
-    myWidget.open();
-  }, false);
+// document.getElementById("upload_widget").addEventListener("click", function(){
+//     myWidget.open();
+//   }, false);
 
 document
   .querySelector(".login-form")
