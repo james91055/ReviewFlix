@@ -76,6 +76,11 @@ body {
   resize: none;
 }
 
+.card-img-top{
+  width: 150px;
+  height: auto;
+}
+
 /* login page */
 
 .flex-container {
@@ -118,14 +123,6 @@ body {
   padding-bottom: 15px;
   padding-top: 10px;
   text-shadow: 3px 2px 4px #000000;
-}
-
-.btn-primary {
-  padding-top: 8px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding-bottom: 8px;
-  margin-left: 95px;
 }
 
 .form-group {

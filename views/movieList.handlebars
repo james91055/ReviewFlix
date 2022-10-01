@@ -4,23 +4,21 @@
 {{> navlinks}}
 </div>
 
-<div class="card-group container login-form gray-section d-flex justify-content-around">
+<div class="container gray-section">
   {{!-- Use each function to render each movie data --}}
-  {{#each movies as |movie|}}
-    <div class="mb-3">
-      <div class="card" style="width: 18rem;">
+  
+    <div class="row text-center pt-4">
+      <div>
+        {{#each movies as |movie|}}
+        <a href="/movie/{{movie.id}}" class="btn btn-primary">
         <img
-          class="card-img-top"
+          class="card-img-top col-2"
           src="{{movie.imageURL}}"
           alt="{{movie.title}} picture"
         />
-        <div class="card-body">
-          <h5 class="card-title">{{movie.title}}</h5>
-          <p class="card-text">{{movie.movieSummary}}</p>
-          <a href="/movie/{{movie.id}}" class="btn btn-primary">Details + Reviews</a>
-        </div>
+        </a>
+        {{/each}}
       </div>
-
     </div>
-  {{/each}}
+  
 </div>
