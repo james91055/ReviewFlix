@@ -37,7 +37,26 @@ a:hover {
 
 .gray-section {
   background-color: var(--bg_gray);
+  opacity: 80%;
 }
+
+
+.homepage-c {
+  margin-top: 40px;
+  height: 250px;
+}
+
+.homepage-covers {
+  height: 220px;
+  margin: 10px 10px 0;
+  border: 3px solid var(--bg);
+}
+
+.home-cover-links {
+  text-decoration: none;
+  color:rgb(39, 39, 39);
+}
+
 
 body {
   background-image: url(http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg);

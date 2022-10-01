@@ -8,8 +8,13 @@ router.get("/", async (req, res) => {
     // for each movie object in the array, 'get' the essential information.
     const movies = movieData.map((movie) => movie.get({ plain: true }));
 // render the movieList.handlebars page. Pass in movies array and the logged in parameter of the req.session object.
+    const movies1 = movies.slice(0, 3);
+    const movies2 = movies.slice(3, 6);
+    const movies3 = movies.slice(6);
     res.render("movieList", {
-      movies,
+      movies1,
+      movies2,
+      movies3,
       loggedIn: req.session.loggedIn,
     });
   } catch (err) {
