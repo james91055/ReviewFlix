@@ -142,9 +142,23 @@ body {
   font-weight: bold;
 }
 
+.card-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
-@media (max-width: 600px) {
-  .card-group {
-    flex-flow: row wrap;
+.cart-text{
+  overflow: hidden;
+  max-width: 75ch;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 600px){
+  .card-group{
+    align-items: center;
+    flex-direction: column;
   }
 }
+
